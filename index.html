@@ -58,6 +58,7 @@
 
         function setup() {
             createCanvas(windowWidth, windowHeight)
+            textSize(32)
 
         }
 
@@ -67,7 +68,10 @@
 
             if (mouseIsPressed) {
 
-                circle(mouseX, mouseY, random(100))
+                text("euan sich mega toll", 20, 20)
+            } else {
+                background(0, 10)
+                text("daphne isch no besser", 20, 20)
             }
         }
     </script>
